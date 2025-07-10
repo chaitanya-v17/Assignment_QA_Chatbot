@@ -1,0 +1,41 @@
+# 🚀 Run This Project - Step-by-Step Guide
+
+========================================================
+Step 1: Clone the Repository
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+========================================================
+Step 2: Add Your OpenAI API Key
+Open .env file (or create it if it doesn't exist).
+
+Add or replace the following line:
+
+OPENAI_API_KEY=your_actual_openai_key_here
+
+========================================================
+
+Step 3: Create & Activate Virtual Environment
+windows
+
+python -m venv my_env
+my_env\Scripts\activate
+
+linux/macOS
+python3 -m venv my_env
+source my_env/bin/activate
+
+========================================================
+
+Step 4: Install Required Packages
+
+pip install -r requirements.txt
+
+========================================================
+
+Step 5: Run the Streamlit App
+
+streamlit run app.py
+
+========================================================
